@@ -1,0 +1,47 @@
+body {
+	font-size: 14px;
+	margin:0;
+}
+ul {
+	margin:0;
+	padding: 0;
+	background-color: gray;
+}
+ul li {
+	list-style-type:none;
+	display: inline-block;
+	margin:0px -3px;
+}
+ul li a {
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 12px;	
+	line-height: 40px;
+}
+ul li a:hover {
+	color:green;
+	background-color: black;
+}
+.main {
+	width: 900px;
+	margin:0 auto;
+}
+.news {
+	width:400px;
+	height:400px;
+	background: lightblue;
+	float:left;
+	border:1px solid black;
+	border-radius: 100% 
+}
+.bayrag {
+	width: 0px;
+	height: 0px;
+	float:right;
+	border-top:100px solid blue;
+	border-bottom: 100px solid  transparent;
+	border-right: 100px solid transparent;
+	border-left:100px solid  transparent;
+}
+
